@@ -1,0 +1,25 @@
+{
+  "name": "triveous",
+  "version": "1.0.0",
+  "description": "demo app for internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoumikDey/triveous_demo.git"
+  },
+  "author": "Soumik Dey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoumikDey/triveous_demo/issues"
+  },
+  "homepage": "https://github.com/SoumikDey/triveous_demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.2.0"
+  }
+}
