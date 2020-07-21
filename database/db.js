@@ -6,9 +6,9 @@ const mysql = require('mysql');
 const mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
-    database: 'triveous',
-    port: '3307'
+    password: '',
+    database: 'triveous_demo',
+    port: '3306'
 })
 
 const db = mysqlConnection.connect((err) => {

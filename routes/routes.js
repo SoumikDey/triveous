@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 //controllers
-const { insertBookmark } = require('../controllers/insert')
+const { insertBookmark, insertTag } = require('../controllers/insert')
 
 //routes
 
@@ -10,5 +10,11 @@ const { insertBookmark } = require('../controllers/insert')
 router
     .route('/insert_bookmark')
     .post(insertBookmark)
+
+
+// insert tag route  
+router
+    .route('/insert_tag')
+    .post(insertTag)
 
 module.exports = router 
