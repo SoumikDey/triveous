@@ -1,13 +1,14 @@
 Steps to reproduce:
 1. Replicate the Schema from the script in schema/triveous_demo.sql
 2. Configure the connection string in database/db.js file
-3. Start the nodemon server by running "npm run dev"
+3. Run "npm install" to install the dependencies
+4. Start the nodemon server by running "npm run dev"
 
 API endpoints:
 
-1 Insert Tag -
+1. Insert Tag -
 
-.Method: POST 
+Method: POST 
 Header: localhost:3000/api/insert_tag
 
 Body Example:
