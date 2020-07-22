@@ -1,5 +1,5 @@
 Steps to reproduce:
-1. Replicate the Schema from the script in schema/schema.sql
+1. Replicate the Schema from the script in schema/triveous_demo.sql
 2. Configure the connection string in database/db.js file
 3. Start the nodemon server by running "npm run dev"
 
