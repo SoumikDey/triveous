@@ -12,7 +12,7 @@ app.use(express.json())
 //routers
 app.use(`/api/`, routes)
 
-//error handler middleware
+//error handler middleware with vil
 app.use(errorHandler)
 
 
